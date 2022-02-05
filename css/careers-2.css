@@ -1,0 +1,72 @@
+.form-wrapper input, .form-wrapper select {
+    width: 100%;
+    padding: 0 22px;
+    height: 46px;
+    border: none;
+    border-bottom: 1px #dae4e8 solid;
+    border-left: 1px #dae4e8 solid;
+    font-size: 12px;
+    color: #858788;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    border-radius: 0px;
+}
+.row {
+    top: 0px;
+    letter-spacing: unset;
+    word-spacing: unset;
+    font-size: unset;
+}
+.apply-now-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+.custom-file-input:focus ~ .custom-file-label {
+    border-color: none;
+    box-shadow: none;
+} 
+.custom-file {
+    height: 40px;
+}
+.custom-file-input{
+    height: 40px;
+}
+.custom-file-label {
+	font-size: 11px;
+	line-height: 24px;
+	word-wrap: break-word;
+    display: flex !important;
+    height: 40px;
+}
+.custom-file-label::after {
+	line-height: 24px;
+    height: 40px;
+}
+.lightGreyBg {
+    background-color: #F6F6F6 !important;
+}
+.careersBox{
+    /* box-shadow: 0px 0px 5px 1px #0000001f; */
+    border: 1px solid #cfcfcf !important;
+    background-color:transparent !important;
+    background-image:url('../image/down-arrow.svg');
+    background-position: 98% 30px;
+    background-size:20px;
+    border-radius:0px !important;
+    background-repeat:no-repeat;
+    margin-bottom:1.5rem;
+}
+.careersBox button{
+    padding: 0 !important;
+    background-color: transparent;
+    border: 0 !important;
+    color: #000;
+    font-size:20px !important;
+}
+.show { 
+    display: block;
+}
+button:focus {
+    outline: none;
+}
